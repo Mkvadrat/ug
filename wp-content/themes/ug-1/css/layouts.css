@@ -1,0 +1,426 @@
+/*-----------------------------------------*/
+
+/*---------- start bunner-object ----------*/
+
+/*-----------------------------------------*/
+
+.layout-panoramnij .bunner-object {
+
+  padding: 0px;
+
+  position: relative;
+
+  margin-bottom: 20px; }
+
+  .layout-panoramnij .bunner-object .banner-in-body {
+
+    width: 100%;
+
+    height: auto; }
+
+  .layout-panoramnij .bunner-object .object-description {
+
+    width: 900px;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 38%;
+
+    left: 50%;
+
+    margin-left: -450px;
+
+    text-align: center; }
+
+    .layout-panoramnij .bunner-object .object-description p {
+
+      font-family: "MyriadPro-Regular";
+
+      font-size: 3vw;
+
+      font-weight: 700;
+
+      line-height: 3.2vw;
+
+      color: #fff;
+
+      text-transform: uppercase;
+
+      text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81); }
+
+
+
+/*---------------------------------------*/
+
+/*---------- end bunner-object ----------*/
+
+/*---------------------------------------*/
+
+/*----------------------------------------------*/
+
+/*---------- start photo-construction ----------*/
+
+/*----------------------------------------------*/
+
+.layout-panoramnij .photo-construction ul {
+
+  width: 100%;
+
+  margin: 30px auto; }
+
+  .layout-panoramnij .photo-construction ul li {
+
+    display: inline-block;
+
+    margin-right: 27px; }
+
+    .layout-panoramnij .photo-construction ul li a {
+
+      text-decoration: none; }
+
+      .layout-panoramnij .photo-construction ul li a img {
+
+        width: 310px;
+
+        height: 234px;
+
+        padding: 4px;
+
+        border: 1px solid #a9a9a9; }
+
+    .layout-panoramnij .photo-construction ul li a:hover img {
+
+      outline: 1px solid #d4d4d4;
+
+      -webkit-transition: 0.4s;
+
+              transition: 0.4s; }
+
+    .layout-panoramnij .photo-construction ul li a:not(:hover) {
+
+      -webkit-transition: 0.4s;
+
+              transition: 0.4s; }
+
+  .layout-panoramnij .photo-construction ul li:last-child {
+
+    margin-right: 0px; }
+
+.layout-panoramnij .block-manager {
+
+  width: 580px;
+
+  margin: 35px auto 20px auto;
+
+  height: auto;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07); }
+
+  .layout-panoramnij .block-manager .contacts-manager {
+
+    overflow: hidden;
+
+    width: 397px;
+
+    margin: 45px auto 30px auto;
+
+    text-align: left; }
+
+    .layout-panoramnij .block-manager .contacts-manager .address {
+
+      padding-bottom: 45px;
+
+      border: none; }
+
+    .layout-panoramnij .block-manager .contacts-manager img {
+
+      float: left; }
+
+    .layout-panoramnij .block-manager .contacts-manager .address {
+
+      font-family: "MyriadPro-Regular";
+
+      font-size: 24px;
+
+      font-weight: 400;
+
+      line-height: 25px;
+
+      color: #355d91;
+
+      font-style: italic; }
+
+    .layout-panoramnij .block-manager .contacts-manager p {
+
+      position: relative;
+
+      left: 20px;
+
+      font-family: "MyriadPro-Regular";
+
+      font-size: 18px;
+
+      font-weight: 400;
+
+      line-height: 18px;
+
+      color: #355d91;
+
+      overflow: hidden;
+
+      padding: 12px 10px 11px 0px;
+
+      border-bottom: 1px solid #ebebeb;
+
+      left: 20px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(3) {
+
+      border-top: 1px solid #ebebeb;
+
+      font-style: italic;
+
+      padding-left: 40px;
+
+      margin-left: 8px;
+
+      left: 20px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(4),
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(5),
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(6) {
+
+      padding-left: 40px;
+
+      margin-left: 8px;
+
+      left: 20px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(3):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 8px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 21px;
+
+      height: 22px;
+
+      background-position: -263px -10px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(4):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 10px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 20px;
+
+      height: 22px;
+
+      background-position: -263px -40px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(5):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 9px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 23px;
+
+      height: 23px;
+
+      background-position: -263px -69px; }
+
+    .layout-panoramnij .block-manager .contacts-manager p:nth-child(6):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 13px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 26px;
+
+      height: 16px;
+
+      background-position: -263px -101px; }
+
+    .layout-panoramnij .block-manager .contacts-manager .button {
+
+      display: block;
+
+      margin-top: 20px;
+
+      width: 100%;
+
+      padding: 0px; }
+
+
+
+/*--------------------------------------------*/
+
+/*---------- end photo-construction ----------*/
+
+/*--------------------------------------------*/
+
+.form-block-modal h4 {
+
+  font-weight: 700;
+
+  color: #5b8ed1;
+
+  padding: 45px 20px 30px; }
+
+.form-block-modal .form {
+
+  width: 677px;
+
+  height: auto;
+
+  background-color: #b3b3b3;
+
+  background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+
+  background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+
+  border: 1px solid white;
+
+  box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2);
+
+  padding: 25px 90px;
+
+  margin-left: 20px; }
+
+  .form-block-modal .form  p {
+
+    font-size: 14px;
+
+    padding: 0px;
+
+    text-align: right; }
+
+    .form-block-modal .form  p input {
+
+      width: 304px;
+
+      height: 30px;
+
+      background-color: white;
+
+      border: 1px solid #d4d4d4;
+
+      box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+      margin-bottom: 7px;
+
+      padding: 5px; }
+
+    .form-block-modal .form  p textarea {
+
+      width: 304px;
+
+      height: 123px;
+
+      background-color: white;
+
+      border: 1px solid #d4d4d4;
+
+      box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+      resize: none;
+
+      margin-bottom: 16px;
+
+      padding: 5px; }
+
+    .form-block-modal .form  p span {
+
+      float: left; }
+
+  .form-block-modal .form input[type="submit"] {
+
+    width: 136px;
+
+    height: 46px;
+
+    background-color: #a8ce42;
+
+    font-family: "MyriadPro-Regular";
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    line-height: 20px;
+
+    color: #fff;
+
+    border: none;
+
+    margin-left: 192px; }
+
+  .form-block-modal .form  input[type="submit"]:hover {
+
+    background-color: #83a231;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .form-block-modal .form  input[type="submit"]:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .form-block-modal .form  input[type="submit"]:focus {
+
+    outline: 1px solid #000; }
+
+
+/*# sourceMappingURL=layout-panoramnij.css.map */

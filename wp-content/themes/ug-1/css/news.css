@@ -1,0 +1,329 @@
+/*---------------------------------------*/
+
+/*---------- start news-block ----------*/
+
+/*---------------------------------------*/
+
+.news-block {
+
+  margin-top: 50px;
+
+}
+
+.news-block .years {
+
+  float: right;
+
+  width: 391px;
+
+}
+
+.news-block .years-list {
+  width: auto;
+  float: none;;
+}
+
+.news-block .years ul {
+
+  width: 50px;
+
+}
+
+.news-block .years ul li {
+
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+.news-block .years ul li a {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  color: #828283;
+
+  text-transform: uppercase;
+
+}
+
+.news-block .years ul li a:hover,
+
+.news-block .years ul li .active-years {
+
+  color: #083e81;
+
+  font-weight: 700;
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.news-block .years ul li a:not(:hover) {
+
+  -webkit-transition: 0.4s;
+
+          transition: 0.4s;
+
+}
+
+.news-block .years .subscribe {
+
+  margin-left: 6px;
+
+}
+
+.news-block .years .subscribe h4 {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 14px;
+
+  color: #083e81;
+
+  padding-bottom: 15px;
+
+}
+
+.news-block .years .subscribe form input[type="email"],
+
+.news-block .years .subscribe form input[type="submit"] {
+
+  display: inline-block;
+
+}
+
+.news-block .years .subscribe form input[type="email"] {
+
+  width: 245px;
+
+  height: 46px;
+
+  border: 1px solid #5c5c5c;
+
+  padding: 10px 15px;
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  color: #adadad;
+
+  font-style: italic;
+
+}
+
+.news-block .years .subscribe form input[type="submit"] {
+
+  width: 136px;
+
+  height: 46px;
+
+  background-color: #a8ce42;
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  color: #fff;
+
+  border: none;
+
+  margin-top: 10px;
+
+}
+
+.news-block .years .subscribe form input[type="submit"]:hover {
+
+  background-color: #83a231;
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.news-block .years .subscribe form input[type="submit"]:not(:hover) {
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.news-block .years .subscribe form input[type="submit"]:focus {
+
+  outline: 1px solid #000;
+
+}
+
+.news-block .years .subscribe form input[type="email"]:focus::-webkit-input-placeholder {
+
+  color: transparent;
+
+}
+
+.news-block .years .subscribe form input[type="email"]:focus::-moz-placeholder {
+
+  color: transparent;
+
+}
+
+.news-block .years .subscribe form input[type="email"]:focus:-moz-placeholder {
+
+  color: transparent;
+
+}
+
+.news-block .years .subscribe form input[type="email"]:focus:-ms-input-placeholder {
+
+  color: transparent;
+
+}
+
+/*.news-block .paggination {
+
+  margin-top: 50px;
+
+  margin-bottom: 0px;
+
+  text-align: center;
+
+}
+
+.news-block .paggination ul {
+
+  width: 318px;
+
+  margin: 0 auto;
+
+}
+
+.news-block .paggination ul li {
+
+  display: inline-block;
+
+  text-align: center;
+
+}
+
+.news-block .paggination ul li a {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  color: #828283;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  padding: 5px 10px;
+
+}
+
+.news-block .paggination ul li a:hover {
+
+  color: #053b7d;
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.news-block .paggination ul li a:not(:hover) {
+
+  -webkit-transition: 0.4s;
+
+          transition: 0.4s;
+
+}*/
+
+
+
+.news-block .paggination ul {
+  /*width: 318px;
+  margin: 0 auto;*/
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.news-block .paggination ul li {
+  /*display: inline-block;
+  text-align: center;*/
+  margin: 0px;
+  width: auto;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.news-block .paggination ul li a,
+.news-block .paggination ul li span {
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #828283;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.news-block .paggination ul li a:hover {
+  color: #053b7d;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.news-block .paggination ul li a:not(:hover) {
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+
+
+
+
+.news-block .news h4 {
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+
+
+/*-------------------------------------*/
+
+/*---------- end news-block ----------*/
+
+/*-------------------------------------*/
+
+
+/*# sourceMappingURL=news.css.map */

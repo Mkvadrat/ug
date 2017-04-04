@@ -1,0 +1,22 @@
+/*---------------------------------------*/
+/*---------- start about-block ----------*/
+/*---------------------------------------*/
+.about-block {
+  margin-bottom: 45px;
+}
+.about-block h4 {
+  text-align: center;
+  color: #5b8ed1;
+  text-transform: uppercase;
+  padding: 34px 20px 31px;
+}
+.about-block .banner-in-container {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+/*-------------------------------------*/
+/*---------- end about-block ----------*/
+/*-------------------------------------*/
+
+/*# sourceMappingURL=about.css.map */

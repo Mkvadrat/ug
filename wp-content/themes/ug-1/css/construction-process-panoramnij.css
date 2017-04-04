@@ -1,0 +1,108 @@
+/*-----------------------------------------*/
+/*---------- start bunner-object ----------*/
+/*-----------------------------------------*/
+.construction-process .bunner-object {
+  padding: 0px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.construction-process .bunner-object .banner-in-body {
+  width: 100%;
+  height: auto;
+}
+.construction-process .bunner-object .object-description {
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  margin-left: -450px;
+  text-align: center;
+}
+.construction-process .bunner-object .object-description p:first-child {
+  font-family: "MyriadPro-Regular";
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 2.2px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81);
+  padding: 0px;
+  padding: 0px 0px 2.3vw 0px;
+}
+.construction-process .bunner-object .object-description p:last-child {
+  font-family: "MyriadPro-Regular";
+  font-size: 5vw !important;
+  font-weight: 700;
+  line-height: 5.2vw;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81);
+}
+
+/*---------------------------------------*/
+/*---------- end bunner-object ----------*/
+/*---------------------------------------*/
+/*----------------------------------------------*/
+/*---------- start photo-construction ----------*/
+/*----------------------------------------------*/
+.construction-process .photo-construction ul {
+  width: 828px;
+  margin: 30px auto;
+}
+.construction-process .photo-construction ul li {
+  display: inline-block;
+  margin-right: 41px;
+}
+.construction-process .photo-construction ul li a {
+  text-decoration: none;
+}
+.construction-process .photo-construction ul li a img {
+  width: 100px;
+  height: 71px;
+}
+.construction-process .photo-construction ul li a:hover img {
+  outline: 1px solid #d4d4d4;
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+.construction-process .photo-construction ul li a:not(:hover) {
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+.construction-process .photo-construction ul li:last-child {
+  margin-right: 0px;
+}
+
+/*--------------------------------------------*/
+/*---------- end photo-construction ----------*/
+/*--------------------------------------------*/
+/*----------------------------------------------------*/
+/*---------- start description-construction ----------*/
+/*----------------------------------------------------*/
+.construction-process .bg-h2 {
+  background-image: url(../images/bg-line-blue-light.jpg);
+}
+.construction-process .description-construction {
+  margin-bottom: 34px;
+}
+.construction-process .description-construction h3 {
+  text-align: left;
+  padding: 35px 40px 0px;
+}
+.construction-process .description-construction ul {
+  padding-left: 55px;
+  padding-right: 240px;
+}
+.construction-process .description-construction ul li {
+  line-height: 30px;
+}
+.construction-process .container:last-child .description-construction {
+  margin-bottom: 0px;
+}
+
+/*--------------------------------------------------*/
+/*---------- end description-construction ----------*/
+/*--------------------------------------------------*/
+
+/*# sourceMappingURL=construction-process-panoramnij.css.map */

@@ -1,0 +1,38 @@
+/*---------------------------------------*/
+/*---------- start 404-contant ----------*/
+/*---------------------------------------*/
+.contant-404 {
+  text-align: center; }
+  .contant-404 .figures-404 {
+    font-family: "MyriadPro-Regular";
+    font-size: 246px;
+    font-weight: 400;
+    line-height: 246px;
+    color: #053b7d;
+    padding-top: 130px;
+    padding-bottom: 0px; }
+  .contant-404 .page-not-found {
+    font-family: "MyriadPro-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #053b7d;
+    text-transform: uppercase;
+    background-color: #b3b3b3;
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+    background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+    border: 1px solid white;
+    box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2);
+    padding: 22px 15px 12px 15px;
+    overflow: hidden; }
+  .contant-404 .button-block {
+    margin-top: 6px;
+    margin-bottom: 128px; }
+    .contant-404 .button-block .button {
+      padding: 13px 55px; }
+
+/*-------------------------------------*/
+/*---------- end 404-contant ----------*/
+/*-------------------------------------*/
+
+/*# sourceMappingURL=404.css.map */

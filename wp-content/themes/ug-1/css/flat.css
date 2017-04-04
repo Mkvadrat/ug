@@ -1,0 +1,261 @@
+/*----------------------------------------*/
+/*---------- start small-banner ----------*/
+/*----------------------------------------*/
+.small-banner {
+  padding: 0px;
+  position: relative;
+  margin-bottom: 30px;
+  height: 240px;
+  overflow: hidden; }
+  .small-banner .small-banner-img {
+    width: 100%;
+    height: auto; }
+  .small-banner .small-banner-description {
+    width: 1022px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -511px;
+    text-align: center; }
+    .small-banner .small-banner-description p {
+      font-family: "MyriadPro-Regular";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #fff;
+      text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81);
+      padding: 0px;
+      padding: 20px 15px 30px 15px; }
+    .small-banner .small-banner-description button {
+      font-family: "MyriadPro-Regular";
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 27px;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 13px 25px;
+      background-color: #a7cd42;
+      border: 3px solid white;
+      box-shadow: 1.5px 2.6px 7px rgba(0, 0, 0, 0.35);
+      margin-right: 0.5vw;
+      text-decoration: none; }
+    .small-banner .small-banner-description button:hover {
+      background-color: #83a231;
+      color: #fff;
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+    .small-banner .small-banner-description button:not(:hover) {
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+
+/*--------------------------------------*/
+/*---------- end small-banner ----------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*---------- start flat-block ----------*/
+/*--------------------------------------*/
+.flat-block {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .flat-block .flat-block-slider {
+    height: auto;
+    border: 1px solid #d4d4d4;
+    box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07); }
+    .flat-block .flat-block-slider h3 {
+      font-family: "MyriadPro-Regular";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #10335d;
+      text-transform: none;
+      padding: 15px 0px;
+      background-color: #b3b3b3;
+      background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+      background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+      border: 1px solid #d4d4d4;
+      box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2); }
+
+/*--------------------------------------*/
+/*---------=- end flat-block --=--------*/
+/*--------------------------------------*/
+/*---------------------------------------------*/
+/*---------- start short-description ----------*/
+/*---------------------------------------------*/
+.short-description {
+  height: auto;
+  border: 1px solid #d4d4d4;
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07);
+  margin-bottom: 34px;
+  margin-top: 30px; }
+  .short-description p {
+    padding: 60px 15px 70px 220px; }
+
+.short-description:before {
+  content: '';
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 120px;
+  background-position: 9px -58px; }
+
+/*-------------------------------------------*/
+/*---------- end short-description ----------*/
+/*-------------------------------------------*/
+/*------------------------------------------*/
+/*---------- start our-advantages ----------*/
+/*------------------------------------------*/
+.our-advantages {
+  margin-top: 30px; }
+  .our-advantages ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center; }
+    .our-advantages ul li {
+      -webkit-flex-basis: 230px;
+      -ms-flex-preferred-size: 230px;
+          flex-basis: 230px; }
+      .our-advantages ul li img {
+        height: 88px;
+        width: auto; }
+      .our-advantages ul li h4 {
+        padding: 10px 20px; }
+      .our-advantages ul li p {
+        font-family: "MyriadPro-Regular";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #616161; }
+
+/*----------------------------------------*/
+/*---------- end our-advantages ----------*/
+/*----------------------------------------*/
+
+/*# sourceMappingURL=flat.css.map */
+
+
+
+
+
+
+
+.flat-block-slider .ngg-albumoverview .ngg-clear {
+  display: none !important;
+}
+
+.flat-block-slider .ngg-galleryoverview{
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  -webkit-justify-content: flex-start !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  margin: 30px auto !important;
+}
+
+.flat-block-slider .ngg-gallery-thumbnail {
+  background-color: #FFF;
+  border: none !important;
+  margin: 9px !important;
+}
+
+.flat-block-slider .ngg-gallery-thumbnail a {
+  margin: 0 !important;
+  border: 1px solid #d4d4d4 !important;
+}
+
+.flat-block-slider .ngg-clear {
+  display: none;
+}
+
+.flat-block-slider .ngg-gallery-thumbnail-box {
+  margin-bottom: 18px;
+}
+
+.flat-cont {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flat-block-slider .ngg-album {
+  width: 310px !important;
+  height: 281px !important;
+  background-color: white !important;
+  border: 1px solid #d4d4d4 !important;
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07) !important;
+  overflow: hidden !important;
+  text-align: center !important;
+  margin-bottom: 16px !important;
+  padding: 0 !important;
+}
+
+.ngg-thumbnail img {
+  background-color: #FFF !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0px !important;
+}
+
+.ngg-thumbnail img:hover {
+  -webkit-filter: sepia(100%);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ngg-thumbnail img:not(:hover) {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ngg-thumbnail .ngg-albumtitle,
+.ngg-thumbnail .ngg-albumtitle a {
+  font-family: "MyriadPro-Regular" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  color: #10335d !important;
+  text-transform: uppercase !important;
+  padding-top: 11px !important;
+  padding-bottom: 14px !important;
+}
+
+.ngg-thumbnail:hover a {
+  text-decoration: underline;
+}

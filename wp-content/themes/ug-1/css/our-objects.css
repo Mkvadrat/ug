@@ -1,0 +1,192 @@
+/*-----------------------------------------*/
+
+/*---------- start bunner-object ----------*/
+
+/*-----------------------------------------*/
+
+.our-objects-block .bunner-object {
+
+  padding: 0px;
+
+  position: relative;
+
+  margin-bottom: 30px;
+
+}
+
+.our-objects-block .bunner-object .banner-in-body {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.our-objects-block .bunner-object .object-description {
+
+  width: 900px;
+
+  height: auto;
+
+  position: absolute;
+
+  top: 38%;
+
+  left: 50%;
+
+  margin-left: -450px;
+
+  text-align: center;
+
+}
+
+.our-objects-block .bunner-object .object-description p:first-child {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 5vw;
+
+  font-weight: 700;
+
+  line-height: 5.2vw;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81);
+
+  padding: 0px 0px 1vw 0px;
+
+}
+
+.our-objects-block .bunner-object .object-description p:last-child {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 3.8vw;
+
+  font-weight: 700;
+
+  line-height: 4vw;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  text-shadow: 0.5px 0.9px 70px rgba(34, 30, 31, 0.81);
+
+  padding: 0px;
+
+}
+
+
+
+/*---------------------------------------*/
+
+/*---------- end bunner-object ----------*/
+
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+
+/*---------- start text-border ----------*/
+
+/*---------------------------------------*/
+
+.our-objects-block .text-border {
+
+  margin: 0px 0 40px;
+
+  height: auto;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07);
+
+}
+
+.our-objects-block .text-no-border {
+  margin: 0px 0 30px;
+}
+
+.our-objects-block .text-border p:first-child {
+
+  padding: 38px 50px 30px;
+
+}
+
+.our-objects-block .text-border p {
+
+  padding: 0px 50px 40px;
+
+}
+
+
+
+/*-------------------------------------*/
+
+/*---------- end text-border ----------*/
+
+/*-------------------------------------*/
+
+/*------------------------------------------*/
+
+/*---------- start text-no-border ----------*/
+
+/*------------------------------------------*/
+
+.our-objects-block .text-no-border p:first-child {
+
+  padding: 38px 50px 30px 50px;
+
+}
+
+.our-objects-block .text-no-border p {
+
+  padding: 0px 50px 40px;
+
+}
+
+.our-objects-block .text-no-border p:last-child {
+
+  padding-bottom: 0px;
+
+}
+
+
+
+/*----------------------------------------*/
+
+/*---------- end text-no-border ----------*/
+
+/*----------------------------------------*/
+
+.our-objects-block .bg-h2 {
+
+  background-image: url(../images/bg-line-blue-light.jpg);
+  background-size: 6px 100% !important;
+
+}
+
+.our-objects-block .bg-h2 h2 {
+
+  margin-bottom: 2px;
+
+}
+
+.our-objects-block .map {
+
+  margin-bottom: 27px;
+
+}
+
+
+/*# sourceMappingURL=our-objects.css.map */
+
+
+/* Уменьшение расстояния вокруг кнопки */
+
+.our-objects-block .button-block {
+  padding: 0px 0px 25px;
+}

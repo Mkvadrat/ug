@@ -1,0 +1,317 @@
+/*-----------------------------------------*/
+
+/*---------- start bunner-object ----------*/
+
+/*-----------------------------------------*/
+
+.menu-objects-list h3 {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 29px;
+
+  color: #053b7d;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  padding: 50px 0 20px;
+
+}
+
+.menu-objects-list ul li {
+
+  width: 960px;
+
+  background-color: white;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07);
+
+  margin: 0 auto 110px;
+
+}
+
+.menu-objects-list ul li .photo-object {
+
+  position: relative;
+
+  display: block;
+
+  width: 310px;
+
+  height: 340px;
+
+  background-image: url(../images/mask.png);
+
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+
+  float: left;
+
+  margin: 27px 50px 0px 27px;
+
+}
+
+.menu-objects-list ul li .photo-object img {
+
+  position: absolute;
+
+  top: 0px;
+
+  left: 0px;
+
+}
+
+.menu-objects-list ul li .photo-object .mask {
+
+  width: 100%;
+
+  height: 100%;
+
+  z-index: 2;
+
+}
+
+.menu-objects-list ul li .photo-object .slid-object {
+
+  width: 100%;
+
+  height: 100%;
+
+  z-index: 1;
+
+}
+
+.menu-objects-list ul li .photo-object .matkapital {
+
+  top: 52px;
+
+  left: -44px;
+
+  width: 106px;
+
+  height: 26px;
+
+  opacity: 0.8;
+
+  z-index: 3;
+
+}
+
+.menu-objects-list ul li .photo-object span {
+
+  display: block;
+
+  width: 95px;
+
+  height: 95px;
+
+  position: absolute;
+
+  top: -47px;
+
+  left: -44px;
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 16px;
+
+  color: #fff;
+
+  /*background-color: rgba(253, 152, 8, 0.8);*/
+
+  border-radius: 50%;
+
+  /*border: 2px solid white;*/
+
+  z-index: 3;
+
+  padding-top: 21px;
+
+  text-align: center;
+
+}
+
+.menu-objects-list ul li .photo-object span i {
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  display: block;
+
+}
+
+.menu-objects-list ul li a:hover {
+
+  margin-top: 20px;
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li a:not(:hover) {
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li a:hover span {
+
+  background-color: #fd9808;
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li a:not(:hover) span {
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li a:hover .matkapital {
+
+  opacity: 1;
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li a:not(:hover) .matkapital {
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.menu-objects-list ul li h4 {
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 27px;
+
+  font-weight: 700;
+
+  line-height: 29px;
+
+  color: #053b7d;
+
+  padding: 27px 15px 26px 15px;
+
+}
+
+.menu-objects-list ul li p {
+
+  padding-bottom: 15px;
+
+}
+
+.menu-objects-list ul li p i {
+
+  font-weight: 700;
+
+}
+
+.menu-objects-list ul li p:nth-child(5) {
+
+  padding-bottom: 24px;
+
+}
+
+.menu-objects-list ul li p:nth-child(7) {
+
+  padding-bottom: 28px;
+
+}
+
+.menu-objects-list ul li .button {
+
+  float: right;
+
+  line-height: 18px;
+
+}
+
+.menu-objects-list ul li .button:hover {
+
+  margin: 0px;
+
+}
+
+.menu-objects-list .paggination ul {
+  /*width: 318px;
+  margin: 0 auto;*/
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.menu-objects-list .paggination ul li {
+  /*display: inline-block;
+  text-align: center;*/
+  margin: 0px;
+  width: auto;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.menu-objects-list .paggination ul li a,
+.menu-objects-list .paggination ul li span {
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #828283;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.menu-objects-list .paggination ul li a:hover {
+  color: #053b7d;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.menu-objects-list .paggination ul li a:not(:hover) {
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+
+
+
+/*-----------------------------------------*/
+
+/*----------- end bunner-object -----------*/
+
+/*-----------------------------------------*/
+
+
+
+/*# sourceMappingURL=our-objects-list.css.map */

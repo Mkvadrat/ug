@@ -1,0 +1,51 @@
+/*-----------------------------------------*/
+/*---------- start bunner-object ----------*/
+/*-----------------------------------------*/
+.plans-page h3 {
+  font-family: "MyriadPro-Regular";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #053b7d;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px 15px 20px;
+  text-align: center; }
+.plans-page h3:first-child {
+  padding: 50px 15px 20px; }
+.plans-page .big-plan {
+  text-align: center;
+  margin-bottom: 20px; }
+  .plans-page .big-plan img {
+    max-width: 640px;
+    width: 100%; }
+.plans-page p span {
+  font-size: 24px; }
+.plans-page .plan-flats {
+  overflow: hidden;
+  margin-bottom: 40px; }
+  .plans-page .plan-flats h4 {
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #5b8ed1;
+    text-transform: none;
+    padding-bottom: 20px;
+    padding-left: 30px; }
+    .plans-page .plan-flats h4 span {
+      color: #053b7d; }
+  .plans-page .plan-flats img {
+    max-width: 320px;
+    width: 100%;
+    float: left; }
+  .plans-page .plan-flats p span {
+    color: #053b7d; }
+.plans-page .cursive {
+  font-style: italic; }
+
+/*-----------------------------------------*/
+/*----------- end bunner-object -----------*/
+/*-----------------------------------------*/
+
+/*# sourceMappingURL=plan.css.map */

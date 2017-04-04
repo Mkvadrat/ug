@@ -1,0 +1,226 @@
+/*------------------------------------------*/
+
+/*---------- start contacts-block ----------*/
+
+/*------------------------------------------*/
+
+.contacts-block .central-office,
+
+.contacts-block .sales-department {
+
+  display: inline-block;
+
+  width: 510px;
+
+  vertical-align: top;
+
+}
+
+.contacts-block .sales-department {
+
+  width: 400px;
+
+}
+
+.contacts-block h4 {
+
+  font-weight: 700;
+
+  color: #5b8ed1;
+
+  padding: 35px 20px 20px;
+
+}
+
+.contacts-block p {
+
+  padding: 0px 0px 13px 20px;
+
+}
+
+.contacts-block p a {
+  color: #0c4387;
+
+  font-size: 24px;
+
+  line-height: 30px;
+  
+  text-decoration: none;
+
+  outline: none;
+}
+
+.contacts-block p span {
+
+  color: #0c4387;
+
+  font-size: 24px;
+
+  line-height: 30px;
+
+}
+
+.contacts-block .cursive {
+
+  padding-bottom: 25px;
+
+}
+
+
+
+/*----------------------------------------*/
+
+/*---------- end contacts-block ----------*/
+
+/*----------------------------------------*/
+
+/*--------------------------------------*/
+
+/*---------- start form-block ----------*/
+
+/*--------------------------------------*/
+
+.form-block h4 {
+
+  font-weight: 700;
+
+  color: #5b8ed1;
+
+  padding: 45px 20px 30px;
+
+}
+
+.form-block .form {
+
+  width: 677px;
+
+  height: auto;
+
+  background-color: #b3b3b3;
+
+  background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+
+  background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+
+  border: 1px solid white;
+
+  box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2);
+
+  padding: 25px 90px;
+
+  margin-left: 20px;
+
+}
+
+.form-block .form p {
+
+  font-size: 14px;
+
+  padding: 0px;
+
+  text-align: right;
+
+}
+
+.form-block .form p input {
+
+  width: 304px;
+
+  height: 30px;
+
+  background-color: white;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+  margin-bottom: 7px;
+
+  padding: 5px;
+
+}
+
+.form-block .form p textarea {
+
+  width: 304px;
+
+  height: 123px;
+
+  background-color: white;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+  resize: none;
+
+  margin-bottom: 16px;
+
+  padding: 5px;
+
+}
+
+.form-block .form p span {
+
+  float: left;
+
+}
+
+.form-block .form input[type="submit"] {
+
+  width: 136px;
+
+  height: 46px;
+
+  background-color: #a8ce42;
+
+  font-family: "MyriadPro-Regular";
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  color: #fff;
+
+  border: none;
+
+  margin-left: 192px;
+
+}
+
+.form-block .form input[type="submit"]:hover {
+
+  background-color: #83a231;
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.form-block .form input[type="submit"]:not(:hover) {
+
+  -webkit-transition: 0.5s;
+
+          transition: 0.5s;
+
+}
+
+.form-block .form input[type="submit"]:focus {
+
+  outline: 1px solid #000;
+
+}
+
+
+
+/*------------------------------------*/
+
+/*---------- end form-block ----------*/
+
+/*------------------------------------*/
+
+
+/*# sourceMappingURL=contacts.css.map */

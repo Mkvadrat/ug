@@ -1,0 +1,360 @@
+.nav-tabs > li {
+  float: none !important;
+  margin: 0px !important;
+  cursor: pointer;
+}
+
+.nav-tabs > li > a {
+  margin: 0px !important;
+  line-height: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: transparent !important;
+}
+
+/*-------------------------------------------------------*/
+/*---------- start bunner-object-in-panoramnij ----------*/
+/*-------------------------------------------------------*/
+.objects-in-panoramnij .banner-panoramnij {
+  position: relative;
+}
+.objects-in-panoramnij .banner-panoramnij .panoramnij-bg {
+  width: 100%;
+  height: auto;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 {
+  position: absolute;
+  top: 12%;
+  right: 35.9%;
+  width: 24vw;
+  height: 25vw;
+  cursor: pointer;
+  opacity: 0;
+  list-style: none;
+  border: none;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .housing-1-bg {
+  width: 100%;
+  height: auto;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures {
+  position: absolute;
+  top: 22%;
+  left: -15%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p {
+  font-family: "MyriadPro-Regular";
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.1vw;
+  color: #fff;
+  font-style: italic;
+  opacity: 0.5;
+  padding: 0;
+  padding-bottom: 11%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p span {
+  font-size: 24px;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(2) {
+  padding-left: 1vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(3) {
+  padding-left: 1.1vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(4) {
+  padding-left: 1.2vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(5) {
+  padding-left: 1.3vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(6) {
+  padding-left: 1.4vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(7) {
+  padding-left: 1.5vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(8) {
+  padding-left: 1.6vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(9) {
+  padding-left: 1.7vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .signatures p:nth-child(10) {
+  padding-left: 1.8vw;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10 {
+  position: absolute;
+  top: 83%;
+  right: 7%;
+  width: 85%;
+  height: auto;
+  opacity: 0;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9 img,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10 img {
+  width: 100%;
+  height: auto;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2 {
+  top: 75%;
+  right: 6%;
+  width: 86%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3 {
+  top: 69%;
+  right: 5%;
+  width: 87%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4 {
+  top: 61%;
+  right: 5%;
+  width: 88%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5 {
+  top: 54%;
+  right: 4%;
+  width: 90%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6 {
+  top: 46%;
+  right: 4%;
+  width: 90%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7 {
+  top: 39%;
+  right: 3%;
+  width: 91%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8 {
+  top: 30%;
+  right: 2%;
+  width: 93%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9 {
+  top: 23%;
+  right: 1%;
+  width: 94%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10 {
+  top: 14%;
+  right: 1%;
+  width: 94%;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9:hover,
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9:not(:hover),
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1:hover ~ .signatures p:nth-child(10) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-1:not(:hover) ~ .signatures p:nth-child(10) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2:hover ~ .signatures p:nth-child(9) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-2:not(:hover) ~ .signatures p:nth-child(9) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3:hover ~ .signatures p:nth-child(8) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-3:not(:hover) ~ .signatures p:nth-child(8) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4:hover ~ .signatures p:nth-child(7) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-4:not(:hover) ~ .signatures p:nth-child(7) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5:hover ~ .signatures p:nth-child(6) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-5:not(:hover) ~ .signatures p:nth-child(6) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6:hover ~ .signatures p:nth-child(5) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-6:not(:hover) ~ .signatures p:nth-child(5) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7:hover ~ .signatures p:nth-child(4) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-7:not(:hover) ~ .signatures p:nth-child(4) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8:hover ~ .signatures p:nth-child(3) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-8:not(:hover) ~ .signatures p:nth-child(3) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9:hover ~ .signatures p:nth-child(2) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-9:not(:hover) ~ .signatures p:nth-child(2) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10:hover ~ .signatures p:nth-child(1) {
+  opacity: 1;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1 .floor-10:not(:hover) ~ .signatures p:nth-child(1) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .banner-panoramnij .housing-1:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.objects-in-panoramnij .bg-h2 {
+  background-image: url(../images/bg-line-blue-light.jpg);
+  margin-top: -2px;
+}
+.objects-in-panoramnij .bg-h2 h2 {
+  margin-bottom: 0px;
+}
+.objects-in-panoramnij .paggination {
+  margin: 0 0 50px;
+  padding: 20px 0;
+  background-color: #b3b3b3;
+  background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+  background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+  border: 1px solid white;
+  box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2);
+}
+.objects-in-panoramnij .paggination ul {
+  width: 558px;
+  margin: 0 auto;
+}
+.objects-in-panoramnij .paggination ul li {
+  display: inline-block;
+  text-align: center;
+}
+.objects-in-panoramnij .paggination ul li a,
+.objects-in-panoramnij .paggination ul li span,
+.objects-in-panoramnij .paggination ul li i {
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #828283;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.objects-in-panoramnij .paggination ul li i {
+  color: #cecece;
+}
+.objects-in-panoramnij .paggination ul li a:hover {
+  color: #053b7d !important;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.objects-in-panoramnij .paggination ul li a:not(:hover) {
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
+}
+
+/*-----------------------------------------------------*/
+/*---------- end bunner-object-in-panoramnij ----------*/
+/*-----------------------------------------------------*/
+
+/*# sourceMappingURL=our-objects-in.css.map */

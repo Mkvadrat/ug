@@ -1,0 +1,2365 @@
+.nav-tabs > li {
+
+  float: none !important;
+
+  margin: 0px !important;
+
+  cursor: pointer; }
+
+
+
+.nav-tabs > li > a {
+
+  margin: 0px !important;
+
+  line-height: 0 !important;
+
+  border: none !important;
+
+  border-radius: 0 !important;
+
+  padding: 0 !important;
+
+  cursor: pointer !important; }
+
+
+
+.nav-tabs > li > a,
+
+.nav-tabs > li > a:hover,
+
+.nav-tabs > li > a:focus,
+
+.nav-tabs > li.active > a,
+
+.nav-tabs > li.active > a:hover,
+
+.nav-tabs > li.active > a:focus {
+
+  background-color: transparent; }
+
+
+
+@-webkit-keyframes toTop {
+
+  from {
+
+    top: 150px; }
+
+  50% {
+
+    top: 140px; }
+
+  to {
+
+    top: 150px; } }
+
+
+
+@keyframes toTop {
+
+  from {
+
+    top: 150px; }
+
+  50% {
+
+    top: 140px; }
+
+  to {
+
+    top: 150px; } }
+
+@-webkit-keyframes toTop2 {
+
+  from {
+
+    top: 49%; }
+
+  50% {
+
+    top: 47%; }
+
+  to {
+
+    top: 49%; } }
+
+@keyframes toTop2 {
+
+  from {
+
+    top: 49%; }
+
+  50% {
+
+    top: 47%; }
+
+  to {
+
+    top: 49%; } }
+
+/*-------------------------------------------------------*/
+
+/*---------- start bunner-object-in-panoramnij ----------*/
+
+/*-------------------------------------------------------*/
+
+.objects-in-panoramnij-1 .banner-panoramnij-1 {
+
+  position: relative; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-bg {
+
+    width: 100%;
+
+    height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-1 {
+
+    display: block;
+
+    width: 24vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 1.2vw;
+
+    left: 6vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 3; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-1 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-1:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-1:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-2 {
+
+    display: block;
+
+    width: 20.3vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 13.7vw;
+
+    left: 10.6vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 2; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-2 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-2:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-2:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-3 {
+
+    display: block;
+
+    width: 15.9vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 28vw;
+
+    left: 14.5vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-3 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-3:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-3:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-4 {
+
+    display: block;
+
+    width: 14.3vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 28.1vw;
+
+    left: 27.3vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-4 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-4:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-4:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-5 {
+
+    display: block;
+
+    width: 12.9vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 29vw;
+
+    left: 39.6vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-5 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-5:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-5:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-6 {
+
+    display: block;
+
+    width: 12.9vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 30.9vw;
+
+    left: 50.5vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-6 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-6:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-6:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-7 {
+
+    display: block;
+
+    width: 17vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 21.2vw;
+
+    left: 65.3vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-7 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-7:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-7:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-8 {
+
+    display: block;
+
+    width: 23.4vw;
+
+    height: auto;
+
+    position: absolute;
+
+    bottom: 14vw;
+
+    left: 71.2vw;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    z-index: 1; }
+
+    .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-8 img {
+
+      width: 100%;
+
+      height: auto; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-8:hover {
+
+    opacity: 1;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-8:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .objects-in-panoramnij-1 .banner-panoramnij-1 .panoramnij-active {
+
+    opacity: 1; }
+
+.objects-in-panoramnij-1 .bg-h2 {
+
+  background-image: url(../images/bg-line-blue-light.jpg);
+
+  margin-top: -2px; }
+
+  .objects-in-panoramnij-1 .bg-h2 h2 {
+
+    margin-bottom: 0px; }
+
+.objects-in-panoramnij-1 .paggination {
+
+  margin: 0 0 50px;
+
+  padding: 20px 0;
+
+  background-color: #b3b3b3;
+
+  background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+
+  background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+
+  border: 1px solid white;
+
+  box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2); }
+
+  .objects-in-panoramnij-1 .paggination ul {
+
+    width: 558px;
+
+    margin: 0 auto; }
+
+    .objects-in-panoramnij-1 .paggination ul li {
+
+      display: inline-block;
+
+      text-align: center; }
+
+      .objects-in-panoramnij-1 .paggination ul li a,
+
+      .objects-in-panoramnij-1 .paggination ul li span,
+
+      .objects-in-panoramnij-1 .paggination ul li i {
+
+        font-family: "MyriadPro-Regular";
+
+        font-size: 14px;
+
+        font-weight: 400;
+
+        line-height: 20px;
+
+        color: #828283;
+
+        text-transform: uppercase;
+
+        text-decoration: none;
+
+        padding: 5px 10px; }
+
+      .objects-in-panoramnij-1 .paggination ul li i {
+
+        color: #cecece; }
+
+      .objects-in-panoramnij-1 .paggination ul li a:hover {
+
+        color: #053b7d !important;
+
+        -webkit-transition: 0.2s;
+
+                transition: 0.2s; }
+
+      .objects-in-panoramnij-1 .paggination ul li a:not(:hover) {
+
+        -webkit-transition: 0.4s;
+
+                transition: 0.4s; }
+
+
+
+/*-----------------------------------------------------*/
+
+/*---------- end bunner-object-in-panoramnij ----------*/
+
+/*-----------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+
+/*---------- start tab-cont-panoramnij-1 (floor plan) ----------*/
+
+/*--------------------------------------------------------------*/
+
+.housing-1,
+
+.tab-cont-floors {
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  margin-top: 85px; }
+
+
+
+.housing-1 {
+
+  position: relative;
+
+  width: 300px;
+
+  height: 470px;
+
+  list-style: none;
+
+  border: none;
+
+  padding-left: 50px; }
+
+  .housing-1 li {
+
+    height: 37px; }
+
+    .housing-1 li a {
+
+      display: block;
+
+      height: 100%;
+
+      cursor: pointer; }
+
+    .housing-1 li a:hover {
+
+      background: rgba(253, 215, 71, 0.7) !important;
+
+      -webkit-transition: 0.3s;
+
+              transition: 0.3s; }
+
+    .housing-1 li a:not(:hover) {
+
+      -webkit-transition: 0.3s;
+
+              transition: 0.3s; }
+
+  .housing-1 li:nth-child(2):hover ~ .signatures p:nth-child(1),
+
+  .housing-1 li:nth-child(3):hover ~ .signatures p:nth-child(2),
+
+  .housing-1 li:nth-child(4):hover ~ .signatures p:nth-child(3),
+
+  .housing-1 li:nth-child(5):hover ~ .signatures p:nth-child(4),
+
+  .housing-1 li:nth-child(6):hover ~ .signatures p:nth-child(5),
+
+  .housing-1 li:nth-child(7):hover ~ .signatures p:nth-child(6),
+
+  .housing-1 li:nth-child(8):hover ~ .signatures p:nth-child(7),
+
+  .housing-1 li:nth-child(9):hover ~ .signatures p:nth-child(8),
+
+  .housing-1 li:nth-child(10):hover ~ .signatures p:nth-child(9),
+
+  .housing-1 li:nth-child(11):hover ~ .signatures p:nth-child(10) {
+
+    color: #053b7d; }
+
+  .housing-1 .active {
+
+    background: rgba(253, 215, 71, 0.7) !important;
+
+    color: #053b7d; }
+
+  .housing-1 .floor-11 {
+    margin-top: 47px !important; }
+
+  .housing-1 .housing-1-bg {
+
+    position: absolute;
+
+    width: 249px;
+
+    height: 467px; }
+
+  .housing-1 .signatures {
+
+    position: absolute;
+
+    top: 56px;
+
+    left: 0; }
+
+    .housing-1 .signatures p {
+
+      font-family: "MyriadPro-Regular";
+
+      font-size: 18px;
+
+      font-weight: 400;
+
+      line-height: 20px;
+
+      color: #828283;
+
+      font-style: italic;
+
+      padding: 0;
+
+      padding-bottom: 17px; }
+
+
+
+.tab-cont-floor-panoramnij-1 {
+
+  position: relative;
+
+  margin-bottom: 50px;
+
+  width: 596px;
+
+  margin-top: 50px;
+
+  margin-left: 20px; }
+
+  .tab-cont-floor-panoramnij-1 .to-floor {
+
+    position: absolute;
+
+    top: 49%;
+
+    right: -50px;
+
+    font-size: 35px;
+
+    text-decoration: none;
+
+    color: #9f8686; }
+
+  .tab-cont-floor-panoramnij-1 .to-floor:hover {
+
+    -webkit-animation: toTop2  0.5s infinite ease-in-out;
+
+            animation: toTop2  0.5s infinite ease-in-out; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-1 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-2-sale {
+
+      width: 360px;
+
+      height: 303px;
+
+      position: absolute;
+
+      bottom: 272px;
+
+      left: 0px;
+
+      background-color: rgba(255, 255, 255, 0.5); }
+
+      .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-2-sale .sale {
+
+        position: absolute;
+
+        width: 104px;
+
+        height: 26px;
+
+        left: 50%;
+
+        margin-left: -52px;
+
+        top: 50%;
+
+        margin-top: -13px;
+
+        background-color: red;
+
+        font-family: "MyriadPro-Regular";
+
+        font-size: 14px;
+
+        font-weight: 400;
+
+        line-height: 25px;
+
+        color: #fff;
+
+        text-transform: uppercase;
+
+        text-align: center; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-1 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-2 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-2 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-3 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-3 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-4 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-1-sale {
+
+      width: 260px;
+
+      height: 252px;
+
+      position: absolute;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      background-color: rgba(255, 255, 255, 0.5); }
+
+      .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-1-sale .sale {
+
+        position: absolute;
+
+        width: 104px;
+
+        height: 26px;
+
+        left: 50%;
+
+        margin-left: -52px;
+
+        top: 50%;
+
+        margin-top: -13px;
+
+        background-color: red;
+
+        font-family: "MyriadPro-Regular";
+
+        font-size: 14px;
+
+        font-weight: 400;
+
+        line-height: 25px;
+
+        color: #fff;
+
+        text-transform: uppercase;
+
+        text-align: center; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-4 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-5 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale {
+
+      width: 236px;
+
+      height: 303px;
+
+      position: absolute;
+
+      bottom: 272px;
+
+      right: 0px;
+
+      background-color: rgba(255, 255, 255, 0.5); }
+
+      .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale .sale {
+
+        position: absolute;
+
+        width: 104px;
+
+        height: 26px;
+
+        left: 50%;
+
+        margin-left: -52px;
+
+        top: 50%;
+
+        margin-top: -13px;
+
+        background-color: red;
+
+        font-family: "MyriadPro-Regular";
+
+        font-size: 14px;
+
+        font-weight: 400;
+
+        line-height: 25px;
+
+        color: #fff;
+
+        text-transform: uppercase;
+
+        text-align: center; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-6 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-4-sale {
+
+      width: 240px;
+
+      height: 253px;
+
+      position: absolute;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      background-color: rgba(255, 255, 255, 0.5); }
+
+      .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-4-sale .sale {
+
+        position: absolute;
+
+        width: 104px;
+
+        height: 26px;
+
+        left: 50%;
+
+        margin-left: -52px;
+
+        top: 50%;
+
+        margin-top: -13px;
+
+        background-color: red;
+
+        font-family: "MyriadPro-Regular";
+
+        font-size: 14px;
+
+        font-weight: 400;
+
+        line-height: 25px;
+
+        color: #fff;
+
+        text-transform: uppercase;
+
+        text-align: center; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-7 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-8 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-8 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-9 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+  .tab-cont-floor-panoramnij-1 .block-floor-10 {
+
+    position: relative;
+
+    width: 596px;
+
+    height: 575px;
+
+    margin: 0 auto; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-1 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 260px;
+
+      height: 252px;
+
+      bottom: 20px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-2 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 360px;
+
+      height: 303px;
+
+      top: 0px;
+
+      left: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-3 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      top: 0px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-4 {
+
+      position: absolute;
+
+      display: block;
+
+      width: 237px;
+
+      height: 253px;
+
+      bottom: 20px;
+
+      right: 0px;
+
+      cursor: pointer;
+
+      opacity: 0; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-1:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-2:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-3:hover,
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-4:hover {
+
+      opacity: 1;
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-1:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-2:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-3:not(:hover),
+
+    .tab-cont-floor-panoramnij-1 .block-floor-10 .flat-4:not(:hover) {
+
+      -webkit-transition: 0.5s;
+
+              transition: 0.5s; }
+
+
+
+/*------------------------------------------------------------*/
+
+/*---------- end tab-cont-panoramnij-1 (floor plan) ----------*/
+
+/*------------------------------------------------------------*/
+
+/*-------------------------------------------------------------*/
+
+/*---------- start tab-cont-panoramnij-1 (flat plan) ----------*/
+
+/*-------------------------------------------------------------*/
+
+.tab-cont-flat-panoramnij-1 {
+
+  position: relative; }
+
+  .tab-cont-flat-panoramnij-1 .to-flat {
+
+    position: absolute;
+
+    top: 150px;
+
+    right: 20px;
+
+    font-size: 35px;
+
+    text-decoration: none;
+
+    color: #9f8686; }
+
+  .tab-cont-flat-panoramnij-1 .to-floor-in-descript {
+
+    position: absolute;
+
+    top: 150px;
+
+    left: 20px;
+
+    font-size: 35px;
+
+    text-decoration: none;
+
+    color: #9f8686; }
+
+  .tab-cont-flat-panoramnij-1 .to-flat:hover,
+
+  .tab-cont-flat-panoramnij-1 .to-floor-in-descript:hover {
+
+    -webkit-animation: toTop  0.5s infinite ease-in-out;
+
+            animation: toTop  0.5s infinite ease-in-out; }
+
+  .tab-cont-flat-panoramnij-1 .description-flats {
+
+    text-align: center;
+
+    margin-top: 45px;
+
+    background-color: white;
+
+    border: 1px solid #d4d4d4;
+
+    box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07); }
+
+    .tab-cont-flat-panoramnij-1 .description-flats .plan-flat {
+
+      margin: 70px 135px 40px 120px; }
+
+
+
+.block-contacts-manager-in-object {
+
+  margin-top: 45px;
+
+  background-color: white;
+
+  border: 1px solid #d4d4d4;
+
+  box-shadow: 2.5px 4.3px 3px rgba(9, 10, 10, 0.07); }
+
+  .block-contacts-manager-in-object .contacts-manager-in-object {
+
+    overflow: hidden;
+
+    width: 397px;
+
+    margin: 40px auto 40px auto;
+
+    text-align: left; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object .address {
+
+      padding-bottom: 45px;
+
+      border: none; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object img {
+
+      float: left; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p {
+
+      position: relative;
+
+      left: 20px;
+
+      font-family: "MyriadPro-Regular";
+
+      font-size: 18px;
+
+      font-weight: 400;
+
+      line-height: 18px;
+
+      color: #355d91;
+
+      overflow: hidden;
+
+      padding: 12px 10px 11px 0px;
+
+      border-bottom: 1px solid #ebebeb;
+
+      left: 0px; }
+
+      .block-contacts-manager-in-object .contacts-manager-in-object p a {
+        font-family: "MyriadPro-Regular";
+
+        font-size: 18px;
+
+        font-weight: 400;
+
+        line-height: 18px;
+
+        color: #355d91;
+        
+        text-decoration: none;
+
+        outline: none;
+      }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(2) {
+
+      border-top: 1px solid #ebebeb;
+
+      font-style: italic;
+
+      padding-left: 40px;
+
+      margin-left: 8px;
+
+      left: 20px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(3),
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(4),
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(5) {
+
+      padding-left: 40px;
+
+      margin-left: 8px;
+
+      left: 20px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(2):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 8px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 21px;
+
+      height: 22px;
+
+      background-position: -263px -10px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(3):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 10px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 20px;
+
+      height: 22px;
+
+      background-position: -263px -40px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(4):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 9px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 23px;
+
+      height: 23px;
+
+      background-position: -263px -69px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object p:nth-child(5):before {
+
+      content: '';
+
+      position: absolute;
+
+      top: 13px;
+
+      left: 8px;
+
+      display: inline-block;
+
+      background-image: url(../images/sprite.png);
+
+      background-repeat: no-repeat;
+
+      width: 26px;
+
+      height: 16px;
+
+      background-position: -263px -101px; }
+
+    .block-contacts-manager-in-object .contacts-manager-in-object .button {
+
+      display: block;
+
+      margin-top: 20px;
+
+      width: 100%;
+
+      padding: 0px; }
+
+
+
+/*-----------------------------------------------------------*/
+
+/*---------- end tab-cont-panoramnij-1 (flat plan) ----------*/
+
+/*-----------------------------------------------------------*/
+
+
+/*# sourceMappingURL=panoramnij-6.css.map */
+
+
+
+
+
+.form-block-modal h4 {
+
+  font-weight: 700;
+
+  color: #5b8ed1;
+
+  padding: 45px 20px 30px; }
+
+.form-block-modal .form {
+
+  width: 677px;
+
+  height: auto;
+
+  background-color: #b3b3b3;
+
+  background-image: -webkit-linear-gradient(bottom, #f2f2f2 0%, #fbfbfb 100%);
+
+  background-image: linear-gradient(to top, #f2f2f2 0%, #fbfbfb 100%);
+
+  border: 1px solid white;
+
+  box-shadow: 0 3px 5px rgba(13, 13, 13, 0.2);
+
+  padding: 25px 90px;
+
+  margin-left: 20px; }
+
+  .form-block-modal .form  p {
+
+    font-size: 14px;
+
+    padding: 0px;
+
+    text-align: right; }
+
+    .form-block-modal .form  p input {
+
+      width: 304px;
+
+      height: 30px;
+
+      background-color: white;
+
+      border: 1px solid #d4d4d4;
+
+      box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+      margin-bottom: 7px;
+
+      padding: 5px; }
+
+    .form-block-modal .form  p textarea {
+
+      width: 304px;
+
+      height: 123px;
+
+      background-color: white;
+
+      border: 1px solid #d4d4d4;
+
+      box-shadow: inset 1.5px 2.6px 3px rgba(14, 14, 15, 0.07);
+
+      resize: none;
+
+      margin-bottom: 16px;
+
+      padding: 5px; }
+
+    .form-block-modal .form  p span {
+
+      float: left; }
+
+  .form-block-modal .form input[type="submit"] {
+
+    width: 136px;
+
+    height: 46px;
+
+    background-color: #a8ce42;
+
+    font-family: "MyriadPro-Regular";
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    line-height: 20px;
+
+    color: #fff;
+
+    border: none;
+
+    margin-left: 192px; }
+
+  .form-block-modal .form  input[type="submit"]:hover {
+
+    background-color: #83a231;
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .form-block-modal .form  input[type="submit"]:not(:hover) {
+
+    -webkit-transition: 0.5s;
+
+            transition: 0.5s; }
+
+  .form-block-modal .form  input[type="submit"]:focus {
+
+    outline: 1px solid #000; }
+
+
+
+.tab-cont-floor-panoramnij-1 .block-floor-0 {
+    position: relative;
+    width: 596px;
+    height: 575px;
+    margin: 0 auto;
+  }
+  .tab-cont-floor-panoramnij-1 .block-floor-0 img {
+    width: 85%;
+  }
+
+
+
+
+
+
+  .section-number {
+    position: absolute;
+    width: 60px;
+    top: 30px;
+    left: 63px;
+    background-color: white;
+    border: 1px solid #151515;
+    color: #151515;
+    font-family: "MyriadPro-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 6px;
+    text-align: center;
+  }
+
+
+
+
+
+
+    .section-number-8,
+  .section-number-7,
+  .section-number-6,
+  .section-number-5,
+  .section-number-4,
+  .section-number-3,
+  .section-number-2,
+  .section-number-1 {
+    position: absolute;
+    display: block;
+    width: 60px;
+    top: 6%;
+    left: 31%;
+    background-color: white;
+    border: 1px solid #151515;
+    color: #151515;
+    font-family: "MyriadPro-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 6px;
+    text-align: center;
+    opacity: 1 !important;
+  }
+
+  .section-number-7 {
+    top: 6%;
+    left: 30%;
+  }
+
+  .section-number-6 {
+    top: 6%;
+    left: 28%;
+  }
+
+  .section-number-5 {
+    top: 6%;
+    left: 33%;
+  }
+
+  .section-number-4 {
+    top: 6%;
+    left: 38%;
+  }
+
+  .section-number-3 {
+    top: 6%;
+    left: 41%;
+  }
+
+  .section-number-2 {
+    top: 6%;
+    left: 41%;
+  }
+
+  .section-number-1 {
+    top: 7%;
+    left: 42%;
+  }
