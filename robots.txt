@@ -22,5 +22,5 @@ Disallow: /*?*
 Disallow: /tag
 Disallow: /author
 
-Host: юг-1.рф
-Sitemap: юг-1.рф/sitemap.xml
+Host: xn---1-glc1i.xn--p1ai
+Sitemap: xn---1-glc1i.xn--p1ai/sitemap.xml
