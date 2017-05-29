@@ -22,5 +22,5 @@ Disallow: /*?*
 Disallow: /tag
 Disallow: /author
 
-Host: xn---1-glc1i.xn--p1ai
-Sitemap: xn---1-glc1i.xn--p1ai/sitemap.xml
+Host: ‏ד-1.נפ
+Sitemap: ‏ד-1.נפ/sitemap.xml
