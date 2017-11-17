@@ -31,7 +31,6 @@ p {
 }
 
 
-
 h2 {
 
   font-family: "MyriadPro-Regular";
@@ -67,7 +66,7 @@ h2 {
 }
 
 
-
+h1,
 h3 {
 
   font-family: "MyriadPro-Regular";
@@ -3061,7 +3060,7 @@ footer .footer-bottom-line .made-in {
 
   opacity: 0.7;
 
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 
   text-align: center;
 
@@ -3258,3 +3257,16 @@ footer .footer-bottom-line .made-in span a:not(:hover) {
       bottom: 35px;
       right: 45px;
     }
+
+    .rezerv {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+/* 15.11.2017 */
+
+.yandex-metrika {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}

@@ -1,5 +1,4 @@
 <?php
-define('WP_AUTO_UPDATE_CORE', false);// This setting was defined by WordPress Toolkit to prevent WordPress auto-updates. Do not change it to avoid conflicts with the WordPress Toolkit auto-updates feature.
 /**
  * Основные параметры WordPress.
  *
@@ -21,13 +20,13 @@ define('WP_AUTO_UPDATE_CORE', false);// This setting was defined by WordPress To
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'ugstroi');
+define('DB_NAME', 'ug_1');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'ugstroi');
+define('DB_USER', 'ug_1');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'Fjx4?6u9');
+define('DB_PASSWORD', 'Qr?hy597');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -47,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'NyFC9A2FZwDKgC=W@KitV@uy2T0|+)R*U^Hsm//JL|!n&/k_mYVvBnF(qQKiXXYm');
-define('SECURE_AUTH_KEY',  ':m9p$yp)^^wYv|%nnv+GD26#g6ZX~##87aD0Bs6t-6>Q1R*`C%ptR*H`fqK;MrNX');
-define('LOGGED_IN_KEY',    '~~~X8Gd^y Z&w<1kArO*b&ahlt=rwTAuB~mW67?<rMZRT}7>+})_AK~Q#h._hmoU');
-define('NONCE_KEY',        'bD+$s_e,,}olSHj>6WkKNq2)SO7K8K=JLe*@p49rq6wgdC|Qm9Ex,m_V2.>2|1N,');
-define('AUTH_SALT',        'UpQ&u`z=tKeid>DyrgxJ`_w5@HjyfDjG^OPJdvbsC3ExE)NEYXr;MxkW)?vjj;A0');
-define('SECURE_AUTH_SALT', '#TZR;rG</:m@YE>]kdECh93.BNAq-:n6xQ&VN&l|(z^Msvi73bToHC4N8B}O)*?+');
-define('LOGGED_IN_SALT',   'r6^v/2,]$}G>O>N:Bg <dRN}Jcee2L*(~peRHezjCLH.{(]z`3#HO,cs{rd48JjD');
-define('NONCE_SALT',       '++BKE.MCB[I5s$-vjCuD7FYBM^r=(fn? <,^o4yIxRe9v~dfYD^j`|T!X1CJMf2M');
+define('AUTH_KEY',         'vmLJ#H{_/x!g?YmA^CLzj,l6w%^)EiSfT|?,-Ib!^_^K%pQ/,C~/4s0jIh9~>_-+');
+define('SECURE_AUTH_KEY',  '-O!>o&gC)x/Np0y68!8o4>COkBUc0m14|`$oyx~ T8%|LF-Y;@V?ml2paS<57r8X');
+define('LOGGED_IN_KEY',    'go)NMG(CcU6}Pu?^(Js/]DOzDhe9MW>b@vi;+@oYHpR65;Id!seV:JE..QY^:CDe');
+define('NONCE_KEY',        'zl-E:tGW+]vIo[Kgx[3[Cs;ye;{)/VRt8I,f*h41!jtEj-_!z{~v!=sqY|M]D /Q');
+define('AUTH_SALT',        'qMRAwmbrBC;9AVfv)}%#**3?A]N w{Z[GzUsx6vEXe-pTo0mE5UuzYKoAzs-gNuQ');
+define('SECURE_AUTH_SALT', 'C.,#>6|[ >Bu Q`6!Qq$F~H|XjmE q$#8QE-?erAKcfeYSZH:Gm&W)VW+AVW0VEa');
+define('LOGGED_IN_SALT',   '7Si3&N,nAq!R<c[j:,Xm:u]f4mIyR/dI]{>fs]}3MXBL:z:lGf oaw}@f[cM:5O#');
+define('NONCE_SALT',       'ozrVwwd6[/Cc?UE-o:.U=QHWLp_`6@$go:XU}Ml[Tdf^X^ZX-h.}Z(BFG83[O2;U');
 
 /**#@-*/
 
@@ -64,7 +63,7 @@ define('NONCE_SALT',       '++BKE.MCB[I5s$-vjCuD7FYBM^r=(fn? <,^o4yIxRe9v~dfYD^j
  * Можно установить несколько сайтов в одну базу данных, если использовать
  * разные префиксы. Пожалуйста, указывайте только цифры, буквы и знак подчеркивания.
  */
-$table_prefix  = 'ru_';
+$table_prefix  = 'wp_';
 
 /**
  * Для разработчиков: Режим отладки WordPress.
@@ -72,7 +71,7 @@ $table_prefix  = 'ru_';
  * Измените это значение на true, чтобы включить отображение уведомлений при разработке.
  * Разработчикам плагинов и тем настоятельно рекомендуется использовать WP_DEBUG
  * в своём рабочем окружении.
- * 
+ *
  * Информацию о других отладочных константах можно найти в Кодексе.
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress

@@ -1215,7 +1215,9 @@
 
         text-align: center; }
 
-    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale {
+    .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale,
+    .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-3-sale,
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-3-sale {
 
       width: 236px;
 
@@ -1229,7 +1231,9 @@
 
       background-color: rgba(255, 255, 255, 0.5); }
 
-      .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale .sale {
+      .tab-cont-floor-panoramnij-1 .block-floor-5 .flat-3-sale .sale,
+      .tab-cont-floor-panoramnij-1 .block-floor-6 .flat-3-sale .sale,
+      .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-3-sale .sale {
 
         position: absolute;
 

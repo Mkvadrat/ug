@@ -104,7 +104,7 @@ get_header();
 
 <?php
 
-									if(!empty(get_field ('gallery_block_constructed_objects_layouts_page'))){
+									if(get_field('gallery_block_constructed_objects_layouts_page')){
 
 									  foreach (get_field ('gallery_block_constructed_objects_layouts_page') as $nextgen_gallery_id) :
 

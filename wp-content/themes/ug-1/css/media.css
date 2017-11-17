@@ -306,6 +306,12 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+	.yandex-metrika {
+		top: auto;
+		bottom: 0;
+  		left: 0;
+	}
+
 	.plan-flat {
 		margin: 20px auto !important;
 	}
@@ -476,7 +482,15 @@
 	}
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+
+	.yandex-metrika {
+		display: block;
+		width: 88px;
+		left: 50%;
+		margin-left: -44px;
+	}
+
 	.navbar-header { 
 		float: none; 
 	} 

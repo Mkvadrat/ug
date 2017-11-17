@@ -52,15 +52,15 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="photo-construction">
+                    <div class="photo-construction">		
 <?php
-										if(!empty(get_field ('gallery_period_a_construction_process_page'))){
-	                    foreach (get_field ('gallery_period_a_construction_process_page') as $nextgen_gallery_id) :
+					if(get_field('gallery_period_a_construction_process_page')){
+	                    foreach(get_field('gallery_period_a_construction_process_page') as $nextgen_gallery_id){
 	                        echo nggShowGallery( $nextgen_gallery_id );
-	                    endforeach;
-										}
+	                    }
+	
+					}
 ?>
-                        <!--<?php the_field('gallery_period_a_construction_process_page'); ?>-->
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_b_construction_process_page'))){
+										if(get_field ('gallery_period_b_construction_process_page')){
 	                    foreach (get_field ('gallery_period_b_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -144,7 +144,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_c_construction_process_page'))){
+										if((get_field('gallery_period_c_construction_process_page'))){
 	                    foreach (get_field ('gallery_period_c_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -189,7 +189,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_d_construction_process_page'))){
+										if(get_field ('gallery_period_d_construction_process_page')){
 	                    foreach (get_field ('gallery_period_d_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -234,7 +234,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_e_construction_process_page'))){
+										if(get_field ('gallery_period_e_construction_process_page')){
 	                    foreach (get_field ('gallery_period_e_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -279,7 +279,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_f_construction_process_page'))){
+										if(get_field ('gallery_period_f_construction_process_page')){
 	                    foreach (get_field ('gallery_period_f_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -324,7 +324,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_g_construction_process_page'))){
+										if(get_field ('gallery_period_g_construction_process_page')){
 	                    foreach (get_field ('gallery_period_g_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -369,7 +369,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_h_construction_process_page'))){
+										if(get_field ('gallery_period_h_construction_process_page')){
 	                    foreach (get_field ('gallery_period_h_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -414,7 +414,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_i_construction_process_page'))){
+										if(get_field ('gallery_period_i_construction_process_page')){
 	                    foreach (get_field ('gallery_period_i_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -459,7 +459,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_j_construction_process_page'))){
+										if(get_field ('gallery_period_j_construction_process_page')){
 	                    foreach (get_field ('gallery_period_j_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -504,7 +504,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-						if(!empty(get_field ('gallery_period_k_construction_process_page'))){
+						if(get_field ('gallery_period_k_construction_process_page')){
 	                    foreach (get_field ('gallery_period_k_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;
@@ -549,7 +549,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="photo-construction">
 <?php
-										if(!empty(get_field ('gallery_period_l_construction_process_page'))){
+										if(get_field ('gallery_period_l_construction_process_page')){
 	                    foreach (get_field ('gallery_period_l_construction_process_page') as $nextgen_gallery_id) :
 	                        echo nggShowGallery( $nextgen_gallery_id );
 	                    endforeach;

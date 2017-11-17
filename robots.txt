@@ -6,5 +6,5 @@ Disallow: /wp-content/plugins
 Disallow: /wp-content/cache
 Disallow: /wp-content/themes
 
-Host: http://ugstroi.com
-Sitemap: http://ugstroi.com/sitemap.xml
+Host: xn---1-glc1i.xn--p1ai
+Sitemap: http://xn---1-glc1i.xn--p1ai/sitemap.xml

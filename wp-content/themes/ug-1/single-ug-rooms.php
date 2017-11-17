@@ -26,7 +26,7 @@ get_header();
 
   <div class="objects-in-panoramnij-1">
 
-      <?php if(!empty(get_field('text_block_rooms_taxonomy'))){?>
+      <?php if(get_field('text_block_rooms_taxonomy')){?>
 
         <?php the_field('text_block_rooms_taxonomy'); ?>
 

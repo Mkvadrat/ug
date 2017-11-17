@@ -1450,7 +1450,8 @@
 
     margin: 0 auto; }
 
-    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1-sale {
+    .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1-sale,
+    .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-1-sale {
 
       width: 260px;
 
@@ -1464,7 +1465,8 @@
 
       background-color: rgba(255, 255, 255, 0.5); }
 
-      .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1-sale .sale {
+      .tab-cont-floor-panoramnij-1 .block-floor-7 .flat-1-sale .sale,
+      .tab-cont-floor-panoramnij-1 .block-floor-9 .flat-1-sale .sale {
 
         position: absolute;
 

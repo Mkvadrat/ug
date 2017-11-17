@@ -84,7 +84,6 @@ Version: 1.0
 	  <!--SWEETALERT-->
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/js/sweetalert/dist/sweetalert.css">
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/sweetalert/dist/sweetalert.min.js"></script>
-
 	  <?php wp_head(); ?>
 </head>
 
