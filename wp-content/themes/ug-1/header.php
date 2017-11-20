@@ -136,6 +136,7 @@ Version: 1.0
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-default">
+                            <a class="choice-apartments" href="http://юг-1.рф/panoramnyj-blok-1/"><img src="http://xn---1-glc1i.xn--p1ai/wp-content/themes/ug-1/images/ug-kv.gif" alt="">выбор<br>квартир</a><a class="shares" href="/actions/">акции</a>
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                     <span class="sr-only">Toggle navigation</span>

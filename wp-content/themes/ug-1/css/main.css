@@ -1723,7 +1723,7 @@ ul.navbar-right .current-menu-item {
 
   text-transform: uppercase;
 
-  padding: 22px 0px;
+  padding: 21px 0px;
 
   margin-bottom: 26px;
 
@@ -3269,4 +3269,80 @@ footer .footer-bottom-line .made-in span a:not(:hover) {
   position: absolute;
   top: 0;
   left: 100px;
+}
+
+.header-menu .navbar {
+  position: relative;
+}
+
+.choice-apartments,
+.shares {
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.choice-apartments {
+  left: -210px;
+  width: 120px;
+  height: 72px;
+  padding-left: 50px;
+  padding-top: 16px;
+  background-color: #d93630;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63);
+  color: white !important;
+  font-family: "MyriadPro-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+      -ms-transition: 0.2s;
+       -o-transition: 0.2s;
+          transition: 0.2s;
+}
+
+.choice-apartments img {
+  position: absolute;
+  top: 14px;
+  left: 8px;
+  width: 35px;
+}
+
+.shares {
+  right: -190px;
+  width: 89px;
+  height: 72px;
+  text-align: center;
+  background-color: #db3021;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.63);
+  color: white !important;
+  font-family: "MyriadPro-Regular";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+      -ms-transition: 0.2s;
+       -o-transition: 0.2s;
+          transition: 0.2s;
+}
+
+.shares:visited,
+.choice-apartments:visited {
+  color: #fff !important;
+}
+
+.shares:hover,
+.choice-apartments:hover {
+  color: #fff;
+  top: -5px;
+  text-decoration: none;
+}
+
+.objects-in-panoramnij-1 .bg-h2:first-child {
+  margin-bottom: 0 !important;
 }
